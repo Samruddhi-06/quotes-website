@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote_Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <div class="light-dark-toggle" onclick="toggleDarkMode()">🌙</div>
+    <div class="navbar">
+        <h1>Quotiva</h1>
+    </div>
+    <div class="container">
+        <div class="quote-box">
+            <div class="quote" id="quote">Loading...</div>
+            <div class="author" id="author"></div>
+            <div class="buttons">
+                <button onclick="newQuote()">New Quote</button>
+                <button onclick="copyQuote()">Copy</button>
+                <button onclick="likeQuote()">❤ <span id="like-count">0</span></button>
+                <button onclick="speakQuote()">🔊</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
